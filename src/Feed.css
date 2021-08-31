@@ -1,0 +1,42 @@
+.feed{
+    flex:0.7;
+    background-color: whitesmoke;
+}
+
+.feed>h1{
+    padding: 20px;
+    min-width: 400px;
+}
+
+.feed_center{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 200px;
+}
+
+.feed_input{
+    display: flex;
+    border: none;
+    padding: 10px;
+    outline-width: 0;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.feed_input>input{
+    border: none;
+    outline-width: 0;
+    padding: 10px;
+    font-size: medium;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.feed_input>button{
+    height: 42px;
+    background-color: darkblue;
+    color: white;
+    outline-width: 0;
+   
+}

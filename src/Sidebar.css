@@ -1,0 +1,83 @@
+.sidebar{
+    flex:0.3;
+    background-color: darkblue;
+    min-height: 80vh;
+    min-width: 320px;
+}
+
+.sidebar_upper{
+    display: flex;
+    border-bottom: 1px solid white;
+    margin-left: 10px;
+    color: white;
+}
+
+.sidebar_upper:hover{
+    cursor: pointer;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.sidebar_upper>h3{
+    margin-left: 10px;
+}
+
+.sidebar_middle1>h3{
+    padding: 4px;
+}
+
+.sidebar_middle1{
+    padding: 5px;
+    color: white;
+}
+
+.sidebar_middle1:hover{
+    cursor: pointer;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.sidebar_middle2{
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.sidebar_middle2Heading{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.sidebar_middle2Heading>h3{
+    margin-left: 5px;
+}
+
+.sidebar_middle2Heading> .MuiSvgIcon{
+    padding: 5px;
+}
+
+.sidebar_middle2Heading:hover{
+    cursor: pointer;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.sidebar_footer2Heading{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.sidebar_footer2Heading>h3{
+    margin-left: 5px;
+}
+
+.sidebar_footer2Heading> .MuiSvgIcon{
+    padding: 5px;
+}
+
+.sidebar_footer2Heading:hover{
+    cursor: pointer;
+    color: cornflowerblue;
+    font-size: 20px;
+}
